@@ -1134,3 +1134,5 @@ function ResetF(){
     clickS.play();
   }
 }
+
+//////////////////////////////////////////code by Ashutosh Kumar/////////////////////
