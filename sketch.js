@@ -660,7 +660,7 @@ function storeName(){
   Name = nameBox.value();
   clickS.play();
   if(Name ===""){
-    alert ("Please Enter Name");
+    alert ("------> Please Enter Your Name <--------");
   }
  
   if(Name !==""){
