@@ -659,8 +659,14 @@ if(gameState === "FINAL"){
 function storeName(){
   Name = nameBox.value();
   clickS.play();
+  if(Name ===""){
+    alert ("Please Enter Name");
+  }
+ 
+  if(Name !==""){
   console.log(Name);
 gameState ="LEVEL 1 STARTING"
+  }
 }
 
 // function which will make cannon disapper if not in use
